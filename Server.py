@@ -9,7 +9,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 # Bind the server socket to a specific address and port
-server.bind(("192.168.87.81", 12345))
+server.bind(("SERVER IP", 12345))
 
 print("-" * 60)
 
