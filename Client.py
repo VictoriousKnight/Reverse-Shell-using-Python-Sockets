@@ -14,7 +14,7 @@ os_name = ""
 # Attempt to connect to the server until successful
 while True:
     try:
-        client.connect(("127.0.0.1", 12345))
+        client.connect(("SERVER IP", 12345))
         # Retrieve the operating system name
         os_name = platform.system()
         # Send the operating system name to the server
